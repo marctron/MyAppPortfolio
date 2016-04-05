@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.marctron.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="25dp"
+            android:text="@string/text"
+            android:textSize="29sp" />
+
+
+        <Button
+            style="@style/NormalButton"
+            android:id="@+id/spotifybutton"
+            android:layout_below="@id/text"
+            android:text="@string/button0" />
+
+        <Button
+            style="@style/NormalButton"
+            android:id="@+id/scoresbutton"
+            android:layout_below="@id/spotifybutton"
+            android:text="@string/button1" />
+
+        <Button
+            style="@style/NormalButton"
+            android:id="@+id/librarybutton"
+            android:layout_below="@id/scoresbutton"
+            android:text="@string/button2" />
+
+        <Button
+            style="@style/NormalButton"
+            android:id="@+id/biggerbutton"
+            android:layout_below="@id/librarybutton"
+            android:text="@string/button3" />
+
+        <Button
+            style="@style/NormalButton"
+            android:id="@+id/xyzbutton"
+            android:layout_below="@id/biggerbutton"
+            android:text="@string/button4" />
+
+        <Button
+            style="@style/NormalButton"
+            android:id="@+id/capstonebutton"
+            android:layout_below="@id/xyzbutton"
+            android:text="@string/button5" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
