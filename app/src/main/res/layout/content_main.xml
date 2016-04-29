@@ -38,6 +38,7 @@
             android:layout_below="@id/spotifybutton"
             android:text="@string/button1" />
 
+
         <Button
             style="@style/NormalButton"
             android:id="@+id/librarybutton"
